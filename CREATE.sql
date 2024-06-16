@@ -1,3 +1,13 @@
+-- Удаление существующих таблиц
+DROP TABLE IF EXISTS CompilationTracks;
+DROP TABLE IF EXISTS ArtistAlbums;
+DROP TABLE IF EXISTS ArtistGenres;
+DROP TABLE IF EXISTS Tracks;
+DROP TABLE IF EXISTS Albums;
+DROP TABLE IF EXISTS Artists;
+DROP TABLE IF EXISTS Genres;
+DROP TABLE IF EXISTS Compilations;
+
 -- Создание таблицы "Исполнители"
 CREATE TABLE IF NOT EXISTS Artists (
     artist_id SERIAL PRIMARY KEY,

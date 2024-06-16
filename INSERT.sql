@@ -53,7 +53,7 @@ VALUES
     ('Stayin Alive', 210, 2),
     ('Daddy cool', 215, 3),
     ('my Numb', 180, 4),
-    ('Back in black', 205, 5);    
+    ('Back in myblack', 205, 5);    
 
 -- Сборники
 INSERT INTO compilations (compilation_name, release_year)
